@@ -98,7 +98,7 @@ export interface Directive {
    *   <input type="radio">
    * <form>
    * ```
-   *
+   * NOTE: Don't use hyphen on attribute selector, may causing unexpected error like 'NullInjectorError' for TemplateRef while using with * prefix.
    */
   selector?: string;
 
